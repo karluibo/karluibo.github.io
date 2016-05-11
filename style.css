@@ -1,0 +1,50 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body {
+	height: auto;
+}
+img {
+  width: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.page1, .page2, .page3 {
+	height: 100%;
+	width: inherit;
+	position: absolute;
+	z-index: 2;
+}
+.links {
+	position: fixed;
+	top: 50%;
+	left: 10px;
+	margin-top: -86px;
+	font-family: "Helvetica", monospace;
+	font-size: 20px;
+	text-transform: uppercase;
+	z-index: 3;
+	background-color:;
+	font-weight: bold;
+}
+a {
+	display: block;
+	padding: 10px 15px;
+}
+a, a:active, a:visited {
+	color: #000000;
+	text-decoration: none;
+} 
+.page1 {
+	top: 0;
+}
+.page2 {
+	top: 100%;
+}
+.page3 {
+	top: 200%;
+}
+
