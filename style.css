@@ -52,6 +52,8 @@ a, a:active, a:visited {
 	position: fixed;
 	z-index: 100;
 	font-family: Gotham Book, sans-serif;
+	bottom: 10px;
+	left: 10px;
 	
 	
 }
