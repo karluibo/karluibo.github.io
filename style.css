@@ -50,5 +50,6 @@ a, a:active, a:visited {
 
 .download {
 	position: fixed;
+	z-index: 100;
 	
 }
